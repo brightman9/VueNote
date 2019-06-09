@@ -5,9 +5,9 @@
 
 登录界面：  
 
-<img src="https://raw.githubusercontent.com/brightman9/ResourceRepo/master/vuenote/demo_img/demo_login.png?token=AHN2P7NQPRO4AMIXOPVSV2C47T4FI">
+<img src="https://i.loli.net/2019/06/09/5cfcfeb161e7b90837.png">
 
 笔记编辑：  
 
-<img src="https://raw.githubusercontent.com/brightman9/ResourceRepo/master/vuenote/demo_img/demo_home.png?token=AHN2P7JSC2YQN7REK4F3PMC47T4CE">
+<img src="https://i.loli.net/2019/06/09/5cfcfeb17e90048643.png">
 
