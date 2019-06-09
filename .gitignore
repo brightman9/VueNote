@@ -1,0 +1,14 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/VueNote.Core/bin/Debug
+/VueNote.Core/obj
+/VueNote.WebApi/bin
+/VueNote.WebApi/log
+/VueNote.WebApi/obj
+/package.json
+/VueNote.App/1.txt
+/VueNote.Test/bin/Debug/netcoreapp2.2
+/VueNote.Test/obj
