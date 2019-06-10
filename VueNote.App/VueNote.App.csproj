@@ -41,17 +41,45 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include=".postcssrc.js" />
+    <Content Include="build\build.js" />
+    <Content Include="build\check-versions.js" />
+    <Content Include="build\logo.png" />
+    <Content Include="build\utils.js" />
+    <Content Include="build\vue-loader.conf.js" />
+    <Content Include="build\webpack.base.conf.js" />
+    <Content Include="build\webpack.dev.conf.js" />
+    <Content Include="build\webpack.prod.conf.js" />
+    <Content Include="config\dev.env.js" />
+    <Content Include="config\index.js" />
+    <Content Include="config\prod.env.js" />
+    <Content Include="index.html" />
     <Content Include="src\assets\logo.png" />
     <Content Include="src\main.js" />
+    <Content Include="src\router\index.js" />
+    <Content Include="src\style\common.css" />
+    <Content Include="src\util\auth.js" />
+    <Content Include="src\util\bus.js" />
+    <Content Include="src\util\http.js" />
+    <Content Include="src\util\store.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".babelrc" />
+    <None Include=".editorconfig" />
+    <None Include="dev-server.bat" />
     <None Include="package-lock.json" />
     <None Include="package.json" />
     <None Include="README.md" />
     <None Include="src\App.vue" />
-    <None Include="src\components\HelloWorld.vue" />
+    <None Include="src\components\layout\SideBar.vue" />
+    <None Include="src\components\note\NoteDetail.vue" />
+    <None Include="src\components\note\NoteList.vue" />
+    <None Include="src\components\note\NoteSearch.vue" />
+    <None Include="src\components\note\TagMenu.vue" />
+    <None Include="src\pages\Home.vue" />
+    <None Include="src\pages\Login.vue" />
+    <None Include="src\pages\NotFound.vue" />
+    <None Include="static\.gitkeep" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\util\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>
