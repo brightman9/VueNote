@@ -22,7 +22,8 @@
 # 在线演示  
 演示地址：[https://vuenote.info](https://vuenote.info)  
 登录账号：bob，密码：123  
-PS：为达到最佳效果，建议使用chrome浏览站点  
+
+注：为达到最佳效果，建议使用chrome浏览站点  
 
 <img src="https://i.loli.net/2019/06/09/5cfcfeb161e7b90837.png">  
 
