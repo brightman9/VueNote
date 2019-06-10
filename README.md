@@ -17,11 +17,12 @@
 3. 在前端项目VueNote.App目录下，执行命令：npm install
 4. 启动webpack dev-server：npm run dev
 5. 双击VueNote.sln，将VueNote.WebApi设为启动项目，F5运行
-6. 在浏览器（建议使用chrome）中打开地址：http://dev.vuenote.info:8080 如果一切正常则可以看到登录界面
+6. 在浏览器中打开地址：http://dev.vuenote.info:8080 如果一切正常则可以看到登录界面
 
-# 在线演示
-演示地址：[https://vuenote.info](https://vuenote.info){:target="_blank"}
+# 在线演示  
+演示地址：[https://vuenote.info](https://vuenote.info)  
 登录账号：bob，密码：123  
+PS：为达到最佳效果，建议使用chrome浏览站点  
 
 <img src="https://i.loli.net/2019/06/09/5cfcfeb161e7b90837.png">  
 
