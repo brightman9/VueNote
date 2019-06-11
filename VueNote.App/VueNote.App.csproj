@@ -72,6 +72,7 @@
     <Content Include="src\util\bus.js" />
     <Content Include="src\util\http.js" />
     <Content Include="src\util\store.js" />
+    <Content Include="static\img\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".babelrc" />

@@ -23,11 +23,13 @@ namespace VueNote.WebApi.Common
         public async Task OnAuthorizationAsync(AuthorizationFilterContext context)
         {
             string userIdString = context.HttpContext.User.FindFirst("Id")?.Value;
-            int userId = int.Parse(userIdString);
-            var hasPermission = await UserService.HasPermission(userId, this.Permission);
-            if (!hasPermission)
+            if (int.TryParse(userIdString, out int userId))
             {
-                context.Result = new UnauthorizedResult();
+                var hasPermission = await UserService.HasPermission(userId, this.Permission);
+                if (!hasPermission)
+                {
+                    context.Result = new UnauthorizedResult();
+                }
             }
         }
     }
