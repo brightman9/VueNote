@@ -81,7 +81,7 @@ namespace VueNote.Core.Note.NoteManagement
 
         public static async Task<Note> CreateNote(string title, string @abstract, string content, int authorId)
         {
-            var now = DateTime.Now;
+            var now = DateTime.Now.ToUniversalTime();
             Note note = new Note
             {
                 Title = title,
@@ -103,7 +103,7 @@ namespace VueNote.Core.Note.NoteManagement
             var note = await DbHelper.Get<Note>(noteId);
 
             note.Title = title;
-            note.UpdateTime = DateTime.Now;
+            note.UpdateTime = DateTime.Now.ToUniversalTime();
             await DbHelper.Update(note);
 
             return note.UpdateTime;
@@ -115,7 +115,7 @@ namespace VueNote.Core.Note.NoteManagement
 
             note.Abstract = @abstract;
             note.Content = content;
-            note.UpdateTime = DateTime.Now;
+            note.UpdateTime = DateTime.Now.ToUniversalTime();
             await DbHelper.Update(note);
 
             return note.UpdateTime;

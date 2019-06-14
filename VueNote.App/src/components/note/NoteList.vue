@@ -3,12 +3,13 @@
     <div v-for="note in notes" :key="note.id" class="note-item-container" @click="select(note.id)" :class="{ selected:note.id === selectedItemId }" :style="{ height: listItemHeight + 'px'}">
       <div class="title">{{note.title}}</div>
       <div class="abstract">{{note.abstract}}</div>
-      <div class="date">{{note.date}}</div>
+      <div class="date">{{toLocalTime(note.date)}}</div>
     </div>
   </div>
 </template>
 
 <script>
+import time from '../../util/time'
 export default {
   name: "NoteList",
   data() {
@@ -29,6 +30,9 @@ export default {
       if (this.notes.length > 0) {
         this.select(this.notes[0].id)
       }
+    },
+    toLocalTime(utcTime) {
+      return time.toLocalTime(utcTime)
     }
   }
 }

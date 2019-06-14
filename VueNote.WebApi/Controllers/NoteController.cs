@@ -26,7 +26,7 @@ namespace VueNote.WebApi.Controllers
                 id = t.Id,
                 title = t.Title,
                 @abstract = t.Abstract,
-                date = t.UpdateTime.ToString("yyyy-M-d HH:mm")
+                date = t.UpdateTime
             });
 
             return Ok(new
@@ -46,7 +46,7 @@ namespace VueNote.WebApi.Controllers
                 id = t.Id,
                 title = t.Title,
                 @abstract = t.Abstract,
-                date = t.UpdateTime.ToString("yyyy-M-d"),
+                date = t.UpdateTime,
                 tags = t.Tags.Select(tag => tag.Name).ToList()
             });
 
@@ -67,7 +67,7 @@ namespace VueNote.WebApi.Controllers
                 id = t.Id,
                 title = t.Title,
                 @abstract = t.Abstract,
-                date = t.UpdateTime.ToString("yyyy-M-d"),
+                date = t.UpdateTime,
                 tags = t.Tags.Select(tag => tag.Name).ToList()
             });
 
@@ -88,8 +88,8 @@ namespace VueNote.WebApi.Controllers
                 title = note.Title,
                 @abstract = note.Abstract,
                 content = note.Content,
-                createTime = note.CreateTime.ToString("yyyy-M-d"),
-                updateTime = note.UpdateTime.ToString("yyyy-M-d"),
+                createTime = note.CreateTime,
+                updateTime = note.UpdateTime,
                 isDiscarded = note.IsDiscarded,
                 tags = note.Tags.Select(t => new { id = t.Id, name = t.Name })
             };
@@ -111,8 +111,8 @@ namespace VueNote.WebApi.Controllers
                 title = note.Title,
                 @abstract = note.Abstract,
                 content = note.Content,
-                createTime = note.CreateTime.ToString("yyyy-M-d HH:mm"),
-                updateTime = note.UpdateTime.ToString("yyyy-M-d HH:mm"),
+                createTime = note.CreateTime,
+                updateTime = note.UpdateTime,
                 isDiscarded = note.IsDiscarded,
                 tags = note.Tags.Select(t => new { id = t.Id, name = t.Name })
             };
@@ -130,7 +130,7 @@ namespace VueNote.WebApi.Controllers
 
             return Ok(new
             {
-                updateTime = updateTime.ToString("yyyy-MM-dd HH:mm")
+                updateTime = updateTime
             });
         }
 
@@ -141,7 +141,7 @@ namespace VueNote.WebApi.Controllers
 
             return Ok(new
             {
-                updateTime = updateTime.ToString("yyyy-MM-dd HH:mm")
+                updateTime = updateTime
             });
         }
 
