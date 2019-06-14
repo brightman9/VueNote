@@ -149,7 +149,7 @@ export default {
             this.uneditedNote.content = this.editedNote.content
             this.uneditedNote.updateTime = this.editedNote.updateTime
             // Message.success('已保存笔记');
-            this.$bus.emit('refreshNotes', { noteId: this.editedNote.id })
+            // this.$bus.emit('refreshNotes', { noteId: this.editedNote.id })
           })
           .catch(error => {
             Message.error('保存失败');
