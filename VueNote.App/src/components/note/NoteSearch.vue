@@ -131,7 +131,7 @@ export default {
       this.searchNotes();
     },
     refreshNotes() {
-      this.searchNotes();
+      this.searchNotes(false);
     },
     setSortting(command) {
       const [index, sort, order] = command.split(",");
@@ -146,7 +146,7 @@ export default {
       this.searchCondition.pageNum = 1;
       this.searchNotes();
     },
-    searchNotes() {
+    searchNotes(selectFirst = true) {
       this.$http
         .get(this.searchCondition.api, this.searchCondition)
         .then(data => {
@@ -158,7 +158,8 @@ export default {
           }
 
           this.$nextTick(() => {
-            this.$refs.resultList.selectFirst()
+            if (selectFirst)
+              this.$refs.resultList.selectFirst()
           })
         })
         .catch(error => {

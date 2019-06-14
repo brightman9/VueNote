@@ -123,7 +123,6 @@ export default {
                     this.$refs.tagTree.remove(node)
                     instance.confirmButtonLoading = false;
 
-                    this.$bus.emit('refreshNotes')
                     Message.success('删除成功')
                   }
                   else {
