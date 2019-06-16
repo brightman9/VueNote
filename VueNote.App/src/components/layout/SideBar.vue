@@ -8,7 +8,7 @@
       </div>
       <el-dropdown-menu slot="dropdown">
         <el-dropdown-item>
-          <el-link type="primary" href="https://vuenote.info" target="blank">关于VueNote</el-link>
+          <el-link type="primary" href="https://github.com/brightman9/VueNote" target="blank">关于VueNote</el-link>
         </el-dropdown-item>
         <el-dropdown-item command="logout">退出登录</el-dropdown-item>
       </el-dropdown-menu>
