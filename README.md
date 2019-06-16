@@ -8,7 +8,7 @@
 2. VueNote.WebApi：后端Api接口站点，调用VueNote.Core完成业务操作
 3. VueNote.Core：核心业务逻辑代码  
 
-![](https://github.com/brightman9/ResourceRepo/blob/master/vuenote/demo_img/architecture.PNG?raw=true)
+![](https://i.loli.net/2019/06/16/5d0631afe873733939.png)
 
 # 技术栈
 1. 前端：Vue.js 2.5、Vue-Router、Axios、ElementUI
