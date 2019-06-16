@@ -1,16 +1,16 @@
 # VueNote简介
-基于Vue.js + .NetCore的在线笔记应用，采用前后端分离架构  
-在功能、UI设计上参考了印象笔记的Web版  
-开发目的：练习前后端技术
+基于Vue.js + .NetCore的在线笔记应用，采用前后端分离架构。在功能、UI设计上参考了印象笔记的Web版  
 
 # 项目结构
-1. VueNote.App：前端App项目。实现VueNote的UI，并通过axios与后端Api站点进行数据交互。
-2. VueNote.WebApi：后端Api接口站点。处理来自前端App的请求，并调用VueNote.Core完成业务操作。
-3. VueNote.Core：核心业务逻辑代码。包含业务实体模型的定义及操作，与数据库交互。
+1. VueNote.App：前端App项目
+2. VueNote.WebApi：后端Api站点，通过调用VueNote.Core完成业务操作
+3. VueNote.Core：核心业务逻辑代码  
+
+![](https://i.loli.net/2019/06/16/5d0631afe873733939.png)
 
 # 技术栈
 1. 前端：Vue.js 2.5、Vue-Router、Axios、ElementUI
-2. 服务端：ASP.NET Core 2.2（MVC)、Dapper
+2. 服务端：ASP.NET Core 2.2（MVC)、Dapper、Nginx
 3. 数据库：MySql 8.0
 4. 操作系统  
     * 研发环境：Windows 10
