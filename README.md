@@ -3,7 +3,7 @@
 
 # 项目结构
 1. VueNote.App：前端App项目
-2. VueNote.WebApi：后端Api接口站点，调用VueNote.Core完成业务操作
+2. VueNote.WebApi：后端Api站点，通过调用VueNote.Core完成业务操作
 3. VueNote.Core：核心业务逻辑代码  
 
 ![](https://i.loli.net/2019/06/16/5d0631afe873733939.png)
