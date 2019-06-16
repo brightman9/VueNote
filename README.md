@@ -10,7 +10,7 @@
 
 # 技术栈
 1. 前端：Vue.js 2.5、Vue-Router、Axios、ElementUI
-2. 服务端：ASP.NET Core 2.2（MVC)、Dapper
+2. 服务端：ASP.NET Core 2.2（MVC)、Dapper、Nginx
 3. 数据库：MySql 8.0
 4. 操作系统  
     * 研发环境：Windows 10
