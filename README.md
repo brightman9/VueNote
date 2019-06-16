@@ -1,9 +1,7 @@
 # VueNote简介
 基于Vue.js + .NetCore的在线笔记应用，采用前后端分离架构  
 在功能、UI设计上参考了印象笔记的Web版  
-
-# 开发目的
-练习前后端技术的实验项目
+开发目的：练习前后端技术
 
 # 项目结构
 1. VueNote.App：前端App项目。实现VueNote的UI，并通过axios与后端Api站点进行数据交互。
