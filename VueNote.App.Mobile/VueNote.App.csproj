@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0">
+  <PropertyGroup>
+    <RootNamespace>VueNote.App</RootNamespace>
+    <ProjectGuid>{85C84A33-759E-4E37-9BDB-8B4F06AE5BC1}</ProjectGuid>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\brightman\Desktop\app\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>038936B104CE02B68303EF7D0A6E10A4738B6F10</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>VueNote.App_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".postcssrc.js" />
+    <Content Include="build\build.js" />
+    <Content Include="build\check-versions.js" />
+    <Content Include="build\logo.png" />
+    <Content Include="build\utils.js" />
+    <Content Include="build\vue-loader.conf.js" />
+    <Content Include="build\webpack.base.conf.js" />
+    <Content Include="build\webpack.dev.conf.js" />
+    <Content Include="build\webpack.prod.conf.js" />
+    <Content Include="config\dev.env.js" />
+    <Content Include="config\index.js" />
+    <Content Include="config\prod.env.js" />
+    <Content Include="index.html" />
+    <Content Include="src\assets\img\404.svg" />
+    <Content Include="src\assets\img\add-item.png" />
+    <Content Include="src\assets\img\add.png" />
+    <Content Include="src\assets\img\close.png" />
+    <Content Include="src\assets\img\list.png" />
+    <Content Include="src\assets\img\logo.png" />
+    <Content Include="src\assets\img\more.png" />
+    <Content Include="src\assets\img\remove-item.png" />
+    <Content Include="src\assets\img\sort-setting-button.png" />
+    <Content Include="src\assets\img\tag.png" />
+    <Content Include="src\assets\img\trash.png" />
+    <Content Include="src\main.js" />
+    <Content Include="src\router\index.js" />
+    <Content Include="src\style\common.css" />
+    <Content Include="src\util\auth.js" />
+    <Content Include="src\util\bus.js" />
+    <Content Include="src\util\http.js" />
+    <Content Include="src\util\store.js" />
+    <Content Include="static\img\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".babelrc" />
+    <None Include=".editorconfig" />
+    <None Include="dev-server.bat" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\App.vue" />
+    <None Include="src\components\layout\SideBar.vue" />
+    <None Include="src\components\note\NoteDetail.vue" />
+    <None Include="src\components\note\NoteList.vue" />
+    <None Include="src\components\note\NoteSearch.vue" />
+    <None Include="src\components\note\TagMenu.vue" />
+    <None Include="src\pages\Home.vue" />
+    <None Include="src\pages\Login.vue" />
+    <None Include="src\pages\NotFound.vue" />
+    <None Include="static\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
