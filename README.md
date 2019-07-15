@@ -26,7 +26,7 @@
 6. 在浏览器中打开地址：http://dev.vuenote.info:8080 如果一切正常则可以看到登录界面
 
 # 在线演示  
-演示地址：[PC版](https://vuenote.info) [移动版](https://m.vuenote.info)  
+演示地址：[PC版](https://vuenote.info)、[移动版](https://m.vuenote.info)  
 登录账号：bob，密码：123  
 
 注：为达到最佳效果，建议使用chrome浏览站点  
