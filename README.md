@@ -6,7 +6,7 @@
 2. VueNote.WebApi：后端Api站点，通过调用VueNote.Core完成业务操作
 3. VueNote.Core：核心业务逻辑代码  
 
-![](https://i.loli.net/2019/06/16/5d0631afe873733939.png)
+![](https://i.loli.net/2019/07/15/5d2bc5ae75e6695033.png)
 
 # 技术栈
 1. 前端：Vue.js 2.5、Vue-Router、Axios、ElementUI
@@ -26,7 +26,7 @@
 6. 在浏览器中打开地址：http://dev.vuenote.info:8080 如果一切正常则可以看到登录界面
 
 # 在线演示  
-演示地址：[https://vuenote.info](https://vuenote.info)  
+演示地址：[PC版](https://vuenote.info) [移动版](https://m.vuenote.info)  
 登录账号：bob，密码：123  
 
 注：为达到最佳效果，建议使用chrome浏览站点  
