@@ -26,8 +26,8 @@
 6. 在浏览器中打开地址：http://dev.vuenote.info:8080 如果一切正常则可以看到登录界面
 
 # 在线演示  
-1. [PC版 https://vuenote.info](https://vuenote.info)，建议使用chrome浏览
-2. [移动版 https://m.vuenote.info](https://m.vuenote.info)，可扫描下方二维码访问：
+1. [PC版：https://vuenote.info](https://vuenote.info)。建议使用chrome浏览
+2. 移动版：请扫描下方二维码访问：
 
     * <img width="150" src="https://i.loli.net/2019/07/15/5d2c0a167fe6c88257.png">
     
