@@ -29,7 +29,7 @@
 1. PC版：[https://vuenote.info](https://vuenote.info)（建议使用chrome浏览）
 2. 移动版：请扫描下方二维码访问
 
-    * <img width="150" src="https://i.loli.net/2019/07/15/5d2c0a167fe6c88257.png">
+    <img width="150" src="https://i.loli.net/2019/07/15/5d2c0a167fe6c88257.png">
     
 登录账号：bob，密码：123  
 
